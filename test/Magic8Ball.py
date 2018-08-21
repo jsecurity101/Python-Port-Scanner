@@ -13,25 +13,25 @@ while ans:
         sys.exit()
 
     elif answers == 1:
-        print "It is certain"
+        print "If this is what you want then yes"
 
     elif answers == 2:
         print "No Rookie"
 
     elif answers == 3:
-        print "You may rely on it"
+        print "I dont speak spanish I am sorry"
 
     elif answers == 4:
-        print "Ask again Later I am busy"
+        print "Do not bother me with a stupid question like that"
 
     elif answers == 5:
-        print "Concentrate and ask again"
+        print "Are you sure that is the question you would like to ask?"
 
     elif answers == 6:
-        print "Reply hazy, try again"
+        print "They it dont do what it do but it do"
 
     elif answers == 7:
-        print "My reply is no"
+        print "Yes"
 
     elif answers == 8:
-        print "My sources say no"
+        print "I am sorry but the answer is no"
