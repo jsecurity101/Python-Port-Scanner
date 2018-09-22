@@ -2,7 +2,7 @@ import socket
 import subprocess
 import sys
 from datetime import datetime
-
+import random
 
 name=raw_input("What is the hostname you want to resolve\n")
 try:
@@ -18,7 +18,7 @@ print "Please wait while scanning, this will take a while my dood"
 print "=" * 70
 
 try:
-    for port in range(1,1025):  
+    for port in random.sample(range(1,1025),1024):
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)       
  	result = sock.connect_ex((host, port))
